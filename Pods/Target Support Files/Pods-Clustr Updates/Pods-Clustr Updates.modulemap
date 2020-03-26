@@ -1,0 +1,6 @@
+framework module Pods_Clustr_Updates {
+  umbrella header "Pods-Clustr Updates-umbrella.h"
+
+  export *
+  module * { export * }
+}

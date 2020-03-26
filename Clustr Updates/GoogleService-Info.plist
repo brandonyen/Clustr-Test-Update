@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>550410074749-rjgml8i6s281v911po3rnjnl1r4e468o.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.550410074749-rjgml8i6s281v911po3rnjnl1r4e468o</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDQm_l2XPOyLDhomnD3RXVZuLEUCzrCldI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>550410074749</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.clustr.Clustr-Updates</string>
+	<key>PROJECT_ID</key>
+	<string>clustr-updates</string>
+	<key>STORAGE_BUCKET</key>
+	<string>clustr-updates.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:550410074749:ios:b34fcc00abf2f573220f14</string>
+	<key>DATABASE_URL</key>
+	<string>https://clustr-updates.firebaseio.com</string>
+</dict>
+</plist>
