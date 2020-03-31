@@ -86,7 +86,19 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     @IBAction func syncUpdates(_ sender: Any) {
-        
+        AppData.sharedInstance.updateNode.child("updates").observeSingleEvent(of: .value, with: { (snapshot) in
+          // Get user value
+            let value = snapshot.value as? NSDictionary
+            let updText = value?.allValues.first! as! String
+            let updTitle = value?.allKeys.first! as! String
+            
+            let newList = UpdateClass(inputUpdateName: updTitle, inputUpdateText: updText)
+            AppData.sharedInstance.currentList.append(newList)
+            self.listsTableView.reloadData()
+
+          }) { (error) in
+            self.alertShowMethod(title: "Error", message: error.localizedDescription)
+        }
     }
     
 }
